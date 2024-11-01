@@ -1,0 +1,88 @@
+/*
+	Plugin Name: ThePath Tabbed Widget  
+	Plugin URI: http://www.thepathwebdesign.com/articles/thepath-tabbed-widget-plugin/205/ 
+	Author: ThePath 
+	Author URI: http://www.thepathwebdesign.com 
+	*/
+	
+/* Wrapper */
+#thepathtab {
+	padding: 0;
+	margin: 10px 0 0;
+	height: auto;
+	width: 100%;
+}
+/* Tabs */
+#thepathtab ul.tabnav { height:25px; list-style:none; padding:0; margin:0; overflow:hidden; }
+	#thepathtab ul.tabnav li { display: block; float:left; line-height:25px; }
+		#thepathtab ul.tabnav li a {
+			background: #EEE;
+			border-left: 1px #CCC solid;
+			border-right: 1px #CCC solid;
+			border-top: 1px #CCC solid;
+			-moz-border-radius: 0 5px 0 0;
+			-moz-border-radius-topright: 5px;
+			-webkit-border-top-right-radius: 5px;
+			border-radius: 0 5px 0 0;
+			text-decoration: none;
+			font-size: 14px;
+			font-weight: normal;
+			color: #333333;
+			letter-spacing: -1px;
+			line-height:25px;
+			padding: 0 9px;
+			margin:0;
+			display:block;
+		}
+		#thepathtab ul.tabnav li a:hover {
+			color: #0099FF;
+			text-decoration: none;
+		}
+		#thepathtab ul.tabnav li a.active, #thepathtab ul.tabnav li a.over, #thepathtab ul.tabnav li.ui-tabs-selected a, #thepathtab ul.tabnav li a.ui-tabs-selected {
+			background: #BCBCBB;
+			color: #333333;
+			text-decoration: none;
+			border-left: 1px #CCCCCC solid;
+			border-right: 1px #CCCCCC solid;
+			border-top: 1px #CCCCCC solid;
+		}
+/* Tab content */
+#thepathtab .tabdiv {
+	background: #fff;
+	border: 1px solid #BBBBBB;
+	padding: 0;
+	width:100%;
+}
+	#thepathtab .tabdiv ul{
+		padding:0;
+		margin:0;
+		list-style:none;
+	}
+		#thepathtab .tabdiv ul li{
+			padding:0;
+			margin:0;
+			list-style:none;
+		}
+		#thepathtab .tabdiv ul li a {
+			font-size: 9pt;
+			color:#333333;
+			display: block;
+			border-top:  dotted #BBBBBB 1px;
+			padding: 0.7em;
+		}
+		#thepathtab .tabdiv ul li a:hover {
+			color: #0099FF;
+			text-decoration: none;
+			background-color: #EEEEEE;
+		}
+.ui-tabs .ui-tabs-panel
+{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	background: none;
+}
+.ui-tabs .ui-tabs-hide
+{
+	display: none !important;
+}
